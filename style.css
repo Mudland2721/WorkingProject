@@ -1,7 +1,15 @@
-body {
-    /* background-color:gray; */
-    color: black;
-}
+/* body {
+   background-image: url(https://images.unsplash.com/photo-1543007630-9710e4a00a20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+} */
+
+
+html { 
+    background: url(https://images.unsplash.com/photo-1529791850864-c4dc7781457b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -13,7 +21,6 @@ header {
     color: whitesmoke;
     font-size: 15px;
     padding: 5%;
-    width: 15em;
     border-color: black;
     border-style: groove;
     
