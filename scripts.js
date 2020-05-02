@@ -1,3 +1,9 @@
+$('button').click(function () {
+    location.href = "https://www.lyft.com/rider"
+
+})
+
+
 // $( document ).ready(function() {
 
 
