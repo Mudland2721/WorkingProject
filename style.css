@@ -1,5 +1,5 @@
 body {
-    background-color:gray;
+    /* background-color:gray; */
     color: black;
 }
 
@@ -11,8 +11,15 @@ header {
 .uk-card-body {
     background-color:  gray;
     color: whitesmoke;
-    padding: 15%;
+    font-size: 15px;
+    padding: 5%;
+    width: 15em;
     border-color: black;
     border-style: groove;
+    
 }
 
+.uk-card-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
